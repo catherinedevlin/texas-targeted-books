@@ -1,33 +1,26 @@
-<html>
-<body>
-        <h1>Texas-Targeted Books</h1>
-        <a href="texas-targeted-books.db">List in relational database format</a>
-        (<a href="https://sqlite.org/index.html">SQLite</a>)
-        <p>
-                The Texas Tribune reported on <a
-                        href="https://www.texastribune.org/2021/10/26/texas-school-books-race-sexuality/">
-                        Oct. 26, 2021</a>, that Texas State Rep. Matt Krause,
-                in his role as chair of the House Committee on General Investigating,
-                has opened an official investigation into the presence of hundreds of books
-                in Texas schools, and has required all Texas schools to report on the
-                books' presence.</p>
 
-        <p>Here is a best-effort presentation of the Rep. Krause list
-                in RDBMS and HTML table form, with hyperlinks. ISBN numbers,
-                subjects, and links to OpenLibrary
-                entries were made by automated query to the OpenLibrary API;
-                no guarantees on their accuracy.</p>
+# Texas-Targeted Books
 
-        <ul>
-                <li><a href="https://static.texastribune.org/media/files/965725d7f01b8a25ca44b6fde2f5519b/krauseletter.pdf">
-                                Chair Krause's letter</a></li>
-                <li><a href="https://static.texastribune.org/media/files/94fee7ff93eff9609f141433e41f8ae1/krausebooklist.pdf">
-                                Chair Krause's list (PDF)</a></li>
-                <li><a href="query_open_library.ipynb">Code generating this page</a></li>
-        </ul>
+The [Texas Tribune reported](https://www.texastribune.org/2021/10/26/texas-school-books-race-sexuality/)
+on Oct. 26, 2021 that Texas State Rep. Matt Krause,
+in his role as chair of the Texas House Committee on General Investigating,
+opened an official investigation into the presence of hundreds of books
+in Texas schools, and has required all Texas schools to report on the
+                books' presence.
 
-    <table>
-    <tr><td>Title</td><td>Author</td><td>Year</td><td>ISBN</td><td>Subjects</td></tr>
+Here is a best-effort presentation of the Rep. Krause list
+in RDBMS and HTML table form, with hyperlinks. ISBN numbers,
+subjects, and links to OpenLibrary
+entries were made by automated query to the OpenLibrary API;
+no guarantees on their accuracy.
+
+- [List in relational database format](texas-targeted-books.db) ([SQLite](https://sqlite.org/index.html))
+- [Chair Krause's letter](https://static.texastribune.org/media/files/965725d7f01b8a25ca44b6fde2f5519b/krauseletter.pdf)
+- [Chair Krause's list](https://static.texastribune.org/media/files/94fee7ff93eff9609f141433e41f8ae1/krausebooklist.pdf) (PDF)
+- [Code generating this page](query_open_library.ipynb)
+
+<table>
+  <tr><td>Title</td><td>Author</td><td>Year</td><td>ISBN</td><td>Subjects</td></tr>
   <tr><td><a href="https://openlibrary.org/works/OL108478W">"Hello," I lied : a novel</a></td><td>Kerr, M. E.</td>
         <td>1998</td><td>9781480455481</td>    
         <td>Homosexuality, Fiction, Bisexuality, Rock music, Accessible book, Protected DAISY</td>
@@ -4273,6 +4266,4 @@
         <td></td>
         </tr>
         
-  </table>
-  </body>
-  </html>
+</table>
