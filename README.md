@@ -18,6 +18,7 @@ no guarantees on their accuracy.
 - [Chair Krause's letter](https://static.texastribune.org/media/files/965725d7f01b8a25ca44b6fde2f5519b/krauseletter.pdf)
 - [Chair Krause's list](https://static.texastribune.org/media/files/94fee7ff93eff9609f141433e41f8ae1/krausebooklist.pdf) (PDF)
 - [Code generating this page](query_open_library.ipynb)
+- [Items in Cincinnati Public Library](https://gist.github.com/rayvoelker/f2519027ee6e4f6022658cf64e82aa75) by Ray Voelker
 
 <table>
   <tr><td>Title</td><td>Author</td><td>Year</td><td>ISBN</td><td>Subjects</td></tr>
